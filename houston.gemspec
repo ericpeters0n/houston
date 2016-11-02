@@ -4,7 +4,7 @@ require "houston/version"
 
 Gem::Specification.new do |s|
   s.name        = "houston"
-  s.authors     = ["Mattt Thompson"]
+  s.authors     = ["Mattt Thompson", "Eric Peterson"]
   s.email       = "m@mattt.me"
   s.license     = "MIT"
   s.homepage    = "http://nomad-cli.com"

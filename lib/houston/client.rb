@@ -1,8 +1,8 @@
 module Houston
-  APPLE_PRODUCTION_GATEWAY_URI = "apn://gateway.push.apple.com:2195"
+  APPLE_PRODUCTION_GATEWAY_URI = "http://api.push.apple.com"
   APPLE_PRODUCTION_FEEDBACK_URI = "apn://feedback.push.apple.com:2196"
 
-  APPLE_DEVELOPMENT_GATEWAY_URI = "apn://gateway.sandbox.push.apple.com:2195"
+  APPLE_DEVELOPMENT_GATEWAY_URI = "http://api.development.push.apple.com"
   APPLE_DEVELOPMENT_FEEDBACK_URI = "apn://feedback.sandbox.push.apple.com:2196"
 
   class Client
